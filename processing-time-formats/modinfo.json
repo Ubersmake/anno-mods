@@ -13,7 +13,7 @@
     "English": "UI"
   },
   "CreatorName": "Ubersmake",
-  "CreatorContact": "https://github.com/Ubersmake/anno-mods/tree/main/processing-time-formats-ubersmake",
+  "CreatorContact": "https://github.com/Ubersmake/anno-mods/tree/main/processing-time-formats",
   "Development": {
     "DeployPath": "${annoMods}/${modName}"
   }
