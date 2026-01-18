@@ -2,13 +2,19 @@
   "ModID": "processing-time-formats-ubersmake",
   "Version": "1.0.0",
   "Anno": 8,
-  "Difficulty": "cheat",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "SafeToRemove": true
+  },
   "ModName": {
     "English": "Processing Time Formats"
   },
   "Category": {
-    "English": "Mod"
+    "English": "UI"
   },
-  "CreatorName": "ubersmake",
-  "CreatorContact": ""
+  "CreatorName": "Ubersmake",
+  "CreatorContact": "https://github.com/Ubersmake/anno-mods/tree/main/processing-time-formats-ubersmake",
+  "Development": {
+    "DeployPath": "${annoMods}/${modName}"
+  }
 }
