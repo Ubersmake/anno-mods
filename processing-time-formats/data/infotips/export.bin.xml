@@ -1,0 +1,67 @@
+<ModOps>
+  <!-- CycleTime is returned in ms. 1000 ms/s. 60000 ms/m. 3600000 ms/h. -->
+
+  <!-- Construction Menu / Hotbar / Radial Menu -->
+  <ModOp Type="replace" Path="//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement/InfoElement/InfoElement[TutorialGuid='67951']/Value[TextId='0']/Text">
+    <!-- Default -->
+    <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time}</Text> -->
+    
+    <!-- Seconds -->
+    <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) / 1000} s</Text> -->
+
+    <!-- Tons per minute -->
+    <Text>{(60000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/m</Text>
+
+    <!-- Tons per hour -->
+    <!-- <Text>{(3600000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/h</Text> -->
+
+    <!-- Default with seconds -->
+    <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time} ({Static.Factory.GetCycleTime(RefGuid) / 1000} s)</Text> -->
+
+    <!-- Default with tons per minute -->
+    <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time} ({(60000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/m)</Text> -->
+
+    <!-- Default with tons per hour -->
+    <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time} ({(3600000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/m)</Text> -->
+  </ModOp>
+
+  <!-- Selected Production Building Info-->
+  <ModOp Type="replace" Path="//InfoTipData[Guid='25000207']/InfoElement/InfoElement/Value[TextId='0']/Text">
+    <!-- Default -->
+    <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time}</Text> -->
+    
+    <!-- Seconds -->
+    <!-- <Text>{Selection.Object.Factory.RelativeCycleTime / 1000} s</Text> -->
+
+    <!-- Tons per minute -->
+    <Text>{(60000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/m</Text>
+
+    <!-- Tons per hour -->
+    <!-- <Text>{(3600000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/h</Text> -->
+
+    <!-- Default with seconds -->
+    <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time} ({Selection.Object.Factory.RelativeCycleTime / 1000} s)</Text> -->
+
+    <!-- Default with tons per minute -->
+    <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time} ({(60000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/m)</Text> -->
+
+    <!-- Default with tons per hour -->
+    <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time} ({(3600000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/m)</Text> -->
+  </ModOp>
+
+  <!-- Unknown UI elements -->
+  <!--
+  <ModOp Type="replace" Path="//InfoTipData[Guid='72072']/InfoElement/InfoElement/Value[TextId='0']/Text">
+    <Text>{Selection.Object.Factory.RelativeCycleTime ~Time}</Text>
+  </ModOp>
+  
+  <ModOp Type="replace" Path="//InfoTipData[Guid='500683']/InfoElement/InfoElement/InfoElement/InfoElement/Value/Text">
+    <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time}</Text>
+  </ModOp>
+
+  <ModOp Type="replace" Path="//InfoTipData[Guid='10000118']/InfoElement/InfoElement/InfoElement/InfoElement/Value/Text">
+    <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time}</Text>
+  </ModOp>
+  -->
+  
+</ModOps>
