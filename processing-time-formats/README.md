@@ -14,7 +14,7 @@ To use a different format, after installing this mod open `processing-time-forma
 
 ## TODOs
 
-- [ ] Change version to 0.0.1 until ready to "publish"
+- [X] Change version to 0.0.1 until ready to "publish"
 - [ ] Add text to specify Anno 117
 - [ ] Review https://github.com/anno-mods/modding-guide/blob/main/documentation/infotips.md#compatibility-with-other-mods-please-read-if-you-mod-infotips
 - [ ] Expand README to call out potential mod incompatibilities
