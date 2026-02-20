@@ -19,6 +19,6 @@ To use a different format, after installing this mod open `processing-time-forma
 - [X] Change version to 0.0.1 until ready to "publish"
 - [X] Update for Patch 1.4
 - [X] Add text to specify Anno 117
-- [ ] Review https://github.com/anno-mods/modding-guide/blob/main/documentation/infotips.md#compatibility-with-other-mods-please-read-if-you-mod-infotips
+- [-] Review https://github.com/anno-mods/modding-guide/blob/main/documentation/infotips.md#compatibility-with-other-mods-please-read-if-you-mod-infotips
 - [ ] Expand README to call out potential mod incompatibilities
 - [ ] Test for mods that increase production amount within CycleTime
