@@ -11,3 +11,11 @@ The Anno series uses tons as the de facto unit of mass. These formats are availa
 Along with variants of the default format with the new ones, like `01:30 (0.7 t/m)`.
 
 To use a different format, after installing this mod open `processing-time-formats/data/infotips/export.bin.xml`, then make sure the format you want is uncommented and the others are commented out.
+
+## TODOs
+
+- [ ] Change version to 0.0.1 until ready to "publish"
+- [ ] Add text to specify Anno 117
+- [ ] Review https://github.com/anno-mods/modding-guide/blob/main/documentation/infotips.md#compatibility-with-other-mods-please-read-if-you-mod-infotips
+- [ ] Expand README to call out potential mod incompatibilities
+- [ ] Test for mods that increase production amount within CycleTime
