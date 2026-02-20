@@ -1,5 +1,7 @@
 # Processing Time Formats
 
+A mod for Anno 117. Tested on 1.4.
+
 Provides several different formats for Processing Time values on production buildings. This defaults to tons per minute.
 
 The Anno series uses tons as the de facto unit of mass. These formats are available for UI elements in the Construction Menu / Hotbar / Radial Menu, and the currently selected Production Building info in the bottom right corner:
@@ -16,7 +18,7 @@ To use a different format, after installing this mod open `processing-time-forma
 
 - [X] Change version to 0.0.1 until ready to "publish"
 - [X] Update for Patch 1.4
-- [ ] Add text to specify Anno 117
+- [X] Add text to specify Anno 117
 - [ ] Review https://github.com/anno-mods/modding-guide/blob/main/documentation/infotips.md#compatibility-with-other-mods-please-read-if-you-mod-infotips
 - [ ] Expand README to call out potential mod incompatibilities
 - [ ] Test for mods that increase production amount within CycleTime
