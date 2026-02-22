@@ -22,7 +22,7 @@
     <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time} ({(60000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/m)</Text> -->
 
     <!-- Default with tons per hour -->
-    <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time} ({(3600000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/m)</Text> -->
+    <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time} ({(3600000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/h)</Text> -->
   </ModOp>
 
   <!-- Selected Production Building Info-->
@@ -46,6 +46,6 @@
     <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time} ({(60000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/m)</Text> -->
 
     <!-- Default with tons per hour -->
-    <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time} ({(3600000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/m)</Text> -->
+    <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time} ({(3600000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/h)</Text> -->
   </ModOp>
 </ModOps>
