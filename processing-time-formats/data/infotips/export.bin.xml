@@ -2,7 +2,7 @@
   <!-- CycleTime is returned in ms. 1000 ms/s. 60000 ms/m. 3600000 ms/h. -->
 
   <!-- Construction Menu / Hotbar / Radial Menu -->
-  <ModOp Type="replace" Path="//InfoTipData[Guid='25000020']//Text[TextId='-6900433335126630356']/following-sibling::Value/Text">
+  <ModOp GUID="25000020" Replace="//Text[TextId='-6900433335126630356']/following-sibling::Value/Text">
     <!-- Default -->
     <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time}</Text> -->
     
@@ -26,7 +26,7 @@
   </ModOp>
 
   <!-- Selected Production Building Info-->
-  <ModOp Type="replace" Path="//InfoTipData[Guid='25000207']//Text[TextId='-6905994733872603190']/following-sibling::Value/Text">
+  <ModOp GUID="25000207" Replace="//Text[TextId='-6905994733872603190']/following-sibling::Value/Text">
     <!-- Default -->
     <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time}</Text> -->
     
