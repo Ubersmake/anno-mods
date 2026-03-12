@@ -6,7 +6,7 @@
     <!-- Anno Default -->
     <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time}</Text> -->
 
-    <!-- Seconds with tons per minutes -->
+    <!-- Seconds with tons per minute -->
     <Text>{(Static.Factory.GetCycleTime(RefGuid) / 1000) ~Rounded}s ({(60000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/m)</Text>
 
     <!-- Anno default with tons per minute -->
@@ -21,7 +21,7 @@
     <!-- Anno Default -->
     <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time}</Text> -->
 
-    <!-- Seconds with tons per minutes -->
+    <!-- Seconds with tons per minute -->
     <Text>{(Selection.Object.Factory.RelativeCycleTime / 1000) ~Rounded}s ({(60000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/m)</Text>
 
     <!-- Anno Default with tons per minute -->
