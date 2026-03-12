@@ -3,25 +3,31 @@
 
   <!-- Construction Menu / Hotbar / Radial Menu -->
   <ModOp GUID="25000020" Replace="//Text[TextId='-6900433335126630356']/following-sibling::Value/Text">
-    <!-- Default -->
+    <!-- Anno Default -->
     <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time}</Text> -->
 
-    <!-- Default with tons per minute -->
-    <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time} ({(60000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/m)</Text>
+    <!-- Seconds with tons per minute -->
+    <Text>{(Static.Factory.GetCycleTime(RefGuid) / 1000) ~Rounded}s ({(60000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/m)</Text>
 
-    <!-- Default with tons per hour -->
-    <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time} ({(3600000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/h)</Text> -->
+    <!-- Anno default with tons per minute -->
+    <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time} ({(60000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/m)</Text> -->
+
+    <!-- Just seconds -->
+    <Text>{(Static.Factory.GetCycleTime(RefGuid) / 1000) ~Rounded}s</Text>
   </ModOp>
 
   <!-- Selected Production Building Info-->
   <ModOp GUID="25000207" Replace="//Text[TextId='-6905994733872603190']/following-sibling::Value/Text">
-    <!-- Default -->
+    <!-- Anno Default -->
     <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time}</Text> -->
 
-    <!-- Default with tons per minute -->
-    <Text>{Selection.Object.Factory.RelativeCycleTime ~Time} ({(60000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/m)</Text>
+    <!-- Seconds with tons per minute -->
+    <Text>{(Selection.Object.Factory.RelativeCycleTime / 1000) ~Rounded}s ({(60000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/m)</Text>
 
-    <!-- Default with tons per hour -->
-    <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time} ({(3600000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/h)</Text> -->
+    <!-- Anno Default with tons per minute -->
+    <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time} ({(60000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/m)</Text> -->
+
+    <!-- Just seconds -->
+    <Text>{(Selection.Object.Factory.RelativeCycleTime / 1000) ~Rounded}s</Text>
   </ModOp>
 </ModOps>
