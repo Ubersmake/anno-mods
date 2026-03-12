@@ -13,7 +13,7 @@
     <!-- <Text>{Static.Factory.GetCycleTime(RefGuid) ~Time} ({(60000 / Static.Factory.GetCycleTime(RefGuid)) ~Decimal} t/m)</Text> -->
 
     <!-- Just seconds -->
-    <Text>{(Static.Factory.GetCycleTime(RefGuid) / 1000) ~Rounded}s</Text>
+    <!-- <Text>{(Static.Factory.GetCycleTime(RefGuid) / 1000) ~Rounded}s</Text> -->
   </ModOp>
 
   <!-- Selected Production Building Info-->
@@ -28,6 +28,6 @@
     <!-- <Text>{Selection.Object.Factory.RelativeCycleTime ~Time} ({(60000 / Selection.Object.Factory.RelativeCycleTime) ~Decimal} t/m)</Text> -->
 
     <!-- Just seconds -->
-    <Text>{(Selection.Object.Factory.RelativeCycleTime / 1000) ~Rounded}s</Text>
+    <!-- <Text>{(Selection.Object.Factory.RelativeCycleTime / 1000) ~Rounded}s</Text> -->
   </ModOp>
 </ModOps>
