@@ -1,6 +1,6 @@
 # Processing Time Formats
 
-A mod for Anno 117. Tested on 1.4.1.
+A mod for Anno 117. Tested on 1.5.0.
 
 Provides different formats for Processing Time values on production buildings. This defaults to changing the `mm:ss` format to just the number of seconds in addition to rounded tons per minute.
 
@@ -18,3 +18,7 @@ As of patch 1.4.1, this mod should have no issues with any of the production cha
 - [shared_TT_MultipleInputAmountUpgrade](https://github.com/Serpens66/Anno-1800-SharedMods-for-Modders-/tree/main/shared_TT_MultipleInputAmountUpgrade)
 
 It's entirely possible that someone will make something interesting for _117_ that uses mixed input quantities for production chains. It could even happen in official DLC. And if that happens this mod _should_ gracefully stop working.
+
+## Versioning
+
+This mod _does not_ use [SemVer](https://semver.org/). The version number instead lines up with the latest version of Anno that it was tested against.
