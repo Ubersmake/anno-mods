@@ -2,6 +2,8 @@
 
 A place for Anno mods.
 
+A note on versioning. These mods _do not_ use [SemVer](https://semver.org/). They instead line up with the latest version of Anno that they were tested against.
+
 ## Anno 117
 
 - [Processing Time Formats](https://github.com/Ubersmake/anno-mods/tree/main/processing-time-formats): Provides different formats for Processing Time values on production buildings. This defaults to changing the `mm:ss` format to just the number of seconds in addition to rounded tons per minute.
