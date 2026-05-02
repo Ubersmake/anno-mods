@@ -1,6 +1,6 @@
 # Processing Time Formats
 
-A mod for Anno 117. Tested on 1.4.1.
+A mod for Anno 117. Tested on 1.5.0.
 
 Provides different formats for Processing Time values on production buildings. This defaults to changing the `mm:ss` format to just the number of seconds in addition to rounded tons per minute.
 
